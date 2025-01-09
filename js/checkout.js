@@ -44,7 +44,7 @@ document.getElementById("checkout-form").addEventListener("submit", event => {
   `;
 
   // Send notification via WhatsApp
-  const numbers = ["whatsapp:+1234567890", "whatsapp:+0987654321"];
+  const numbers = ["whatsapp:+96103603294", "whatsapp:+96170698120"];
   numbers.forEach(number => {
     const url = `https://api.whatsapp.com/send?phone=${number}&text=${encodeURIComponent(orderDetails)}`;
     window.open(url, "_blank");
