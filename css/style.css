@@ -194,26 +194,6 @@ footer{
 
 /*footer end*/
 
-/* Media Queries */
-@media (max-width: 768px) {
-  .item-card {
-    width: 150px;
-  }
-
-  .cart-sidebar {
-    width: 250px;
-  }
-#show{
-  display: none;
-}
-#menu{
-  display: flex;
-}
-.checkout-container{
-  display: block;
-}
-}
-
 
 .checkout-container {
   display: flex;
@@ -280,4 +260,27 @@ footer{
   background-color: var(--btn-hover);
 }
 
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .item-card {
+    width: 150px;
+  }
+
+  .cart-sidebar {
+    width: 250px;
+  }
+#show{
+  display: none;
+}
+#menu{
+  display: flex;
+}
+.checkout-container {
+  display: block;
+  justify-content: space-between;
+  margin: 20px;
+  gap: 20px;
+}
+}
 
